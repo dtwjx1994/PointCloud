@@ -1,0 +1,45 @@
+﻿生成启动时间为 2016/6/3 15:44:40。
+     1>项目“C:\Users\qg\Desktop\PointCloud\PointCloud.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D GLUT_BUILDING_LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug/PointCloud.pch" /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt PointCloud.cpp PointCloudView.cpp
+         PointCloudView.cpp
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(108): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(198): warning C4244: “=”: 从“GLdouble”转换到“float”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(199): warning C4244: “=”: 从“GLdouble”转换到“float”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(200): warning C4244: “=”: 从“GLdouble”转换到“float”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(229): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(232): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(235): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(380): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(381): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(387): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(388): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(400): warning C4805: “==”: 在操作中将类型“BOOL”与类型“bool”混合不安全
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(405): warning C4244: “=”: 从“LONG”转换到“GLfloat”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(406): warning C4244: “=”: 从“LONG”转换到“GLfloat”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(421): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(422): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(423): warning C4244: “-=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(424): warning C4244: “+=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(425): warning C4244: “+=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(444): warning C4244: “=”: 从“LONG”转换到“GLfloat”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(445): warning C4244: “=”: 从“LONG”转换到“GLfloat”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(465): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\users\qg\desktop\pointcloud\pointcloudview.cpp(466): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         PointCloud.cpp
+       Link:
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/PointCloud.exe" /INCREMENTAL /NOLOGO glut32.lib Opengl32.lib Glu32.lib glew32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\visual studio\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug/PointCloud.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\PointCloud.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO .\Debug\PointCloud.res
+         .\Debug/MainFrm.obj
+         .\Debug/Point3D.obj
+         .\Debug/PointCloud.obj
+         .\Debug/PointCloudDoc.obj
+         .\Debug/PointCloudView.obj
+         .\Debug/StdAfx.obj
+         PointCloud.vcxproj -> C:\Users\qg\Desktop\PointCloud\.\Debug\PointCloud.exe
+     1>已完成生成项目“C:\Users\qg\Desktop\PointCloud\PointCloud.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.43
